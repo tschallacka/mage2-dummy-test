@@ -1,0 +1,21 @@
+{
+    "name": "test/dummy",
+    "authors": [
+        {
+            "name": "Test"
+        }
+    ],
+    "description": "A magento2 module",
+    "license": "",
+    "version": "1.0.0",
+    "require": [],
+    "autoload": {
+        "psr-4": {
+            "Test\\Dummy\\": "src"
+        },
+        "files": [
+            "registration.php"
+        ]
+    },
+    "type": "magento2-module"
+}
